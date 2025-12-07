@@ -1,0 +1,121 @@
+"use client"
+
+import { motion } from "framer-motion"
+import { useState, useEffect } from "react"
+import Link from "next/link"
+
+export default function GenAIEditingPage() {
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    const root = window.document.documentElement
+    root.classList.remove("light", "system")
+    root.classList.add("dark")
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
+
+  return (
+    <div className="min-h-screen w-full relative bg-black">
+      {/* Solid Black Background */}
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          background: "#000000",
+        }}
+      />
+
+      {/* Header */}
+      <header className="sticky top-4 z-[9999] mx-auto max-w-5xl px-4 py-2 flex flex-row items-center justify-between self-start rounded-full bg-background/80 backdrop-blur-sm border border-border/50 shadow-lg transition-all duration-300">
+        <Link
+          href="/"
+          className="z-50 flex items-center justify-center gap-2 text-lg font-semibold tracking-tight text-foreground drop-shadow-[0_0_18px_rgba(244,244,245,0.4)]"
+        >
+          <span className="drop-shadow-[0_0_20px_rgba(244,244,245,0.8)]">
+            LUMI<span className="font-light">AI</span>
+          </span>
+        </Link>
+      </header>
+
+      {/* Main Content */}
+      <div className="container mx-auto px-4 py-24 sm:py-32 relative z-10 flex-1 flex flex-col">
+        <div className="mx-auto max-w-4xl text-center flex-1 flex flex-col justify-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-8"
+          >
+            <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl mb-8">
+              Coming soon
+            </h1>
+            <p className="mx-auto mb-12 max-w-2xl text-lg text-muted-foreground">
+              We're working on something amazing. Stay tuned for updates!
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="flex items-center justify-center"
+          >
+            <a
+              href="https://wa.link/dmvkw2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="group cursor-pointer border border-border bg-card gap-2 h-[60px] flex items-center p-[10px] rounded-full">
+                <div className="border border-border bg-primary h-[40px] rounded-full flex items-center justify-center text-primary-foreground">
+                  <p className="font-medium tracking-tight mr-3 ml-3 flex items-center gap-2 justify-center text-base">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="lucide lucide-globe animate-spin"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                      <path d="M2 12h20"></path>
+                    </svg>
+                    Get Automated
+                  </p>
+                </div>
+                <div className="text-muted-foreground group-hover:ml-4 ease-in-out transition-all size-[24px] flex items-center justify-center rounded-full border-2 border-border">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-arrow-right group-hover:rotate-180 ease-in-out transition-all"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </motion.div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
