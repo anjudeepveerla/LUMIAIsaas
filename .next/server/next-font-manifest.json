@@ -1,1 +1,38 @@
-{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}
+{
+  "app": {
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/_not-found/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2"
+    ],
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/careers/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/gen-ai-editing/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2"
+    ],
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/login/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2"
+    ],
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/projects/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/OneDrive/Desktop/LAI/lumiai/app/signup/page": [
+      "static/media/Geist_Variable-s.p.f19e4721.woff2",
+      "static/media/GeistMono_Variable.p.73882635.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

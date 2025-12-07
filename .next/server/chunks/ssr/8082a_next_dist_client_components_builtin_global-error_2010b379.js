@@ -1,0 +1,3 @@
+module.exports=[34188,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40979);a.n(d("[project]/OneDrive/Desktop/LAI/lumiai/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},2517,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40979);a.n(d("[project]/OneDrive/Desktop/LAI/lumiai/node_modules/next/dist/client/components/builtin/global-error.js"))},77658,a=>{"use strict";a.i(34188);var b=a.i(2517);a.n(b)}];
+
+//# sourceMappingURL=8082a_next_dist_client_components_builtin_global-error_2010b379.js.map

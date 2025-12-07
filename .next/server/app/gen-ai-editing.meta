@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/gen-ai-editing/layout,_N_T_/gen-ai-editing/page,_N_T_/gen-ai-editing"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/gen-ai-editing/__PAGE__",
+    "/gen-ai-editing",
+    "/_index",
+    "/_head"
+  ]
+}
